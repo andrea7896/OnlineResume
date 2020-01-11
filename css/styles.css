@@ -3,12 +3,18 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-body img{
+#container img{
     border-radius: 50%;
     height: 250px;
     width: 250px;
 }
+
+#container{
+    display: block;
+    text-align: center;
+}
 .content{
+    display: block;
     background: rgb(255, 255, 255);
     width: 50%;
     padding: 40px;
