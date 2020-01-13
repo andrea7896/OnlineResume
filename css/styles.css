@@ -3,30 +3,83 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-#container img{
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
-}
 
-#container{
-    display: block;
+#title-div{
     text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+#title-div h1{
+    font-weight: bold;
+}
+#title-div p{
+    font-family: 'Raleway', sans-serif;
+}
+#container{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .content{
     display: block;
     background: rgb(255, 255, 255);
-    width: 50%;
+    width: 60%;
     padding: 40px;
     border-radius: 10px;
-    margin: 100px auto;
+    margin:  auto;
     font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-    font-family: Arial, Helvetica, sans-serif;
+#info-principal{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container-about{
+   width: 50%;
     text-align: center;
+    /* background-color: paleturquoise */
+}
+#container-img img{
+    border-radius: 50%;
+    max-width: 250px;
+        width: 100%;
+        height: auto;
+}
+#container-img{
+    color: white;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+}
+#contact-info{
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
+    border-radius: 10px;
+    font-size: auto;
+    padding: 5px;
+    display: flex;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    flex-wrap: wrap;
+}
+#contact-info a:hover{
+    color: palevioletred;
+}
+#contact-info a{
+    color: black;
+}
+#container-about p{
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: justify;
+}
+
+#container-skills{
+    margin-top: 20px;
 }
 p{
     font-size: 18px;
     color: black;
 }
+
+
